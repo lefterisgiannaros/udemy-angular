@@ -1,27 +1,14 @@
-# MyFirstApp test
+#Learning in progress
+#Complete Angular Udemy Tutorial
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
+This app uses bootstrap which is included in angular.json config file in architect>build>styles
 
-## Development server
+We show a single page from the html file "index.html", which renders <app-root></app-root>
+App root is actually the root NG module app.module.ts which is bootstrapped in (not really accurate, but we'll get there)
+The structure goes like this
+    index.html
+        app.component.html
+            servers.component.html
+                server.component.html
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Of course it's a work in progress since we're halfway through the course.
